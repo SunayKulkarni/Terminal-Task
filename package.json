@@ -1,0 +1,18 @@
+{
+  "name": "terminal-task",
+  "version": "1.0.2",
+  "description": "a commmand line interface to keep all the tasks intact",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "terminal-task": "./app.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
