@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 
 import fs from "fs";
+import os from "os";
+import path from "path";
 
-const jsonPath = 'data.json';
+const jsonPath = path.join(os.homedir(), ".terminal-task.json");
 
 
 //create json file if not present.
@@ -139,9 +141,7 @@ else if(command==='mark-in-progress'){
        ` );
  }
 
- if (!fs.existsSync(jsonPath)) {
-    fs.writeFileSync(jsonPath, JSON.stringify([]));
-}
+ 
 
 
 
