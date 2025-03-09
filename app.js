@@ -129,13 +129,13 @@ else if(command==='mark-in-progress'){
 
     * Example Usage:
     -----------------------------------------------
-    node task-cli.js add "Buy groceries"
-    node task-cli.js list
-    node task-cli.js list done
-    node task-cli.js mark-in-progress 2
-    node task-cli.js mark-done 3
-    node task-cli.js delete 4
-    node task-cli.js help
+    terminal-task add "Buy groceries"
+    terminal-task list
+    terminal-task list done
+    terminal-task mark-in-progress 2
+    terminal-task mark-done 3
+    terminal-task delete 4
+    terminal-task help
        ` );
  }
 
