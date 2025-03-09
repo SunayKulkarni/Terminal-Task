@@ -26,10 +26,6 @@ const args = process.argv.slice(2);
 const command = args[0];
 const desc = args[1];
 
-
-
-
-
 //add functionality
 if(command==='add'){
 
